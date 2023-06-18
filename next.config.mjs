@@ -19,7 +19,7 @@ const config = {
     defaultLocale: "en",
   },
   images: {
-    domains: ["pbs.twimg.com"],
+    domains: [],
   },
 };
 
