@@ -1,18 +1,22 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Navbar: React.FC = () => {
   return (
     <>
       <nav className="flex items-center justify-between flex-wrap bg-gradient-to-b from-[#2ed24f] to-[#a1c724] p-6">
-        <div className="flex items-center flex-shrink-0 text-white mr-6">
+        <Link
+          className="flex items-center flex-shrink-0 text-white mr-6"
+          href="/"
+        >
           <Image
             src="/favicon.svg"
             alt="Data Dive Logo"
             width={50}
             height={50}
           />
-          <span className="font-semibold text-xl tracking-tight">Data Dive</span>
-        </div>
+          <span className="font-semibold text-2xl tracking-tight pl-4">Data Dive</span>
+        </Link> 
         <div className="block lg:hidden">
           <button className="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
             <svg
