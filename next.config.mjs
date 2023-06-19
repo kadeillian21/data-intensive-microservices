@@ -19,7 +19,7 @@ const config = {
     defaultLocale: "en",
   },
   images: {
-    domains: [],
+    domains: ["tailwindui.com", "images.unsplash.com"],
   },
 };
 

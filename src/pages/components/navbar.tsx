@@ -22,7 +22,7 @@ export const Navbar: React.FC = () => {
           <div>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-[#EF233C]">
               Login
             </a>
           </div>
