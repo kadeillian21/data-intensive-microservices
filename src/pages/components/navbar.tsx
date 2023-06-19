@@ -4,7 +4,7 @@ import Link from "next/link";
 export const Navbar: React.FC = () => {
   return (
     <>
-      <nav className="flex items-center justify-between flex-wrap bg-[#00296B] p-6 ">
+      <nav className="flex items-center justify-between flex-wrap bg-[#003F88] p-6 ">
         <Link
           className="flex items-center flex-shrink-0 text-[#FFD500] mr-6 hover:text-white"
           href="/"
