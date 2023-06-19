@@ -21,6 +21,7 @@ const config = {
   images: {
     domains: ["tailwindui.com", "images.unsplash.com"],
   },
+  plugins: [await import("@tailwindcss/forms")],
 };
 
 export default config;

@@ -12,7 +12,7 @@ import Image from 'next/image'
 const navigation = [
   { name: 'Home', href: '/', icon: HomeIcon, current: true },
   { name: 'Data Dive Examples', href: '/data-dive', icon: DocumentDuplicateIcon, current: false },
-  { name: 'Projects', href: '/projects', icon: FolderIcon, current: false },
+  { name: 'Code', href: '/code', icon: FolderIcon, current: false },
   { name: 'About Us', href: '/about', icon: GlobeAltIcon, current: false },
   { name: 'Blog', href: '/blog', icon: PencilSquareIcon, current: false },
   { name: 'Contact Us', href: '/contact', icon: PhoneIcon, current: false },
@@ -36,7 +36,7 @@ export const Sidebar: React.FC = () => {
                     className={classNames(
                       item.current
                         ? 'bg-[#00296B] text-white'
-                        : 'text-[#00296B] hover:text-white hover:bg-indigo-700',
+                        : 'text-[#00296B] hover:text-white hover:bg-[#00296B]',
                       'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                     )}
                   >
