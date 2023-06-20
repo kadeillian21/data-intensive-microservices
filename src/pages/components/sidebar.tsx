@@ -14,7 +14,7 @@ import { useEffect, useState } from 'react'
 const navigation = [
   { name: 'Home', href: '/', icon: HomeIcon },
   { name: 'Data Dive Examples', href: '/data-dive', icon: DocumentDuplicateIcon },
-  { name: 'Code', href: '/code', icon: FolderIcon },
+  { name: 'Code', href: '/projects', icon: FolderIcon },
   { name: 'About Us', href: '/about', icon: GlobeAltIcon },
   { name: 'Blog', href: '/blog', icon: PencilSquareIcon },
   { name: 'Contact Us', href: '/contact', icon: PhoneIcon },
@@ -37,7 +37,7 @@ export const Sidebar: React.FC = () => {
     } else if (window.location.pathname === '/data-dive') {
       setActiveTabName('Data Dive Examples')
       setActiveTabIcon(DocumentDuplicateIcon)
-    } else if (window.location.pathname === '/code') {
+    } else if (window.location.pathname === '/projects') {
       setActiveTabName('Code')
       setActiveTabIcon(FolderIcon)
     } else if (window.location.pathname === '/about') {

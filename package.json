@@ -31,6 +31,7 @@
     "next": "^13.4.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-router-dom": "^6.13.0",
     "superjson": "1.12.2",
     "zod": "^3.21.4"
   },
