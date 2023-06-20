@@ -52,7 +52,7 @@ export const Sidebar: React.FC = () => {
     }
   }, [activeTab])
   return (
-    <div className="fixed top-0 left-0 h-screen w-64 flex flex-col gap-y-5 overflow-y-auto bg-[#FFD500] px-6 pt-8">
+    <div className="fixed top-0 left-0 h-screen w-64 flex flex-col gap-y-5 overflow-y-auto bg-[#FFD500] px-6 pt-8 z-50">
       <Link
         className="flex items-center flex-shrink-0 text-[#003F88] mr-6 hover:text-white"
         href="/"
