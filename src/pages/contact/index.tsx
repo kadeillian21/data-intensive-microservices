@@ -32,8 +32,7 @@ export default function Example() {
             </div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-              integer elementum id sem. Arcu sed malesuada et magna.
+              Have thoughts or feedback about the content of this site?  Feel free to reach out to me using my contact info or the form to the right.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div className="flex gap-x-4">
@@ -42,9 +41,9 @@ export default function Example() {
                   <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  545 Mavis Island
+                  544 E. Main Street
                   <br />
-                  Chicago, IL 99191
+                  Bozeman, MT 59715
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -53,8 +52,8 @@ export default function Example() {
                   <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  <a className="hover:text-gray-900" href="tel:+1 (555) 234-5678">
-                    +1 (555) 234-5678
+                  <a className="hover:text-gray-900" href="tel:+1 (406) 920-9593">
+                    +1 (406) 920-9593
                   </a>
                 </dd>
               </div>
@@ -64,8 +63,8 @@ export default function Example() {
                   <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  <a className="hover:text-gray-900" href="mailto:hello@example.com">
-                    hello@example.com
+                  <a className="hover:text-gray-900" href="mailto:kadeillianmt@gmail.com">
+                    kadeillianmt@gmail.com
                   </a>
                 </dd>
               </div>
