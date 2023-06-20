@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 
 const MyApp: AppType = () => {
   const [isBrowser, setIsBrowser] = useState(false);
+  
   useEffect(() => {
    setIsBrowser(typeof window !== "undefined");
   }, []);
